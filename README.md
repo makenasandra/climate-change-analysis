@@ -1,4 +1,3 @@
-
 # Climate Change Analysis
 
 A simple demo on how to use Python libraries — scikit-learn, NumPy, and Seaborn — to analyze climate data collected by NASA.
@@ -97,7 +96,7 @@ print(' y = {0} * x + {1}'.format(model.coef_[0], model.intercept_))
     
 
 **3.Perform Linear Regression with Seaborn**
-Seaborn creates a regression line accompanied by a projection showing where data points should fall based on the regression with one simple function call.
+Seaborn creates a regression line and a projection showing where data points should fall based on the regression.
 
 ```python
 plt.scatter(years, mean)
