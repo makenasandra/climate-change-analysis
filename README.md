@@ -10,7 +10,7 @@ from sklearn.linear_model import LinearRegression
 import seaborn as sns; sns.set()
 ```
 
-**Import data**
+**Import the Data**
 
 
 ```python
@@ -18,7 +18,7 @@ yearsBase, meanBase = np.loadtxt('5-year-mean-1951-1980.csv', delimiter=',', use
 years, mean = np.loadtxt('5-year-mean-1882-2014.csv', delimiter=',', usecols=(0, 1), unpack=True)
 ```
 
-**Create a scatter plot**
+**Create a scatter plot to visualize the data**
 
 
 ```python
@@ -30,10 +30,10 @@ plt.show()
 ```
 
 
-![png](output_5_0.png)
+![png](scatter_plots/output_5_0.png)
 
 
-**Performing Linear Regression with Numpy**
+**1.Perform Linear Regression with Numpy**
 
 
 ```python
@@ -61,13 +61,13 @@ plt.show()
 ```
 
 
-![png](output_7_0.png)
+![png](scatter_plots/output_7_0.png)
 
 
      y = 0.00727919911012223 * x + -14.30926585094524
     
 
-**Performing Linear Regression with Scikit-learn**
+**2.Perform Linear Regression with scikit-learn**
 
 
 ```python
@@ -90,13 +90,13 @@ print(' y = {0} * x + {1}'.format(model.coef_[0], model.intercept_))
 ```
 
 
-![png](output_9_0.png)
+![png](scatter_plots/output_9_0.png)
 
 
      y = 0.007279199110122357 * x + -14.309265850945492
     
 
-**Perform Linear Regression with Seaborn**
+**3.Perform Linear Regression with Seaborn**
 
 
 ```python
@@ -109,7 +109,7 @@ plt.show()
 ```
 
 
-![png](output_11_0.png)
+![png](scatter_plots/output_11_0.png)
 
 
 
