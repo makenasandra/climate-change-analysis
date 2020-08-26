@@ -67,7 +67,7 @@ plt.show()
      y = 0.00727919911012223 * x + -14.30926585094524
     
 
-**2.Perform Linear Regression with scikit-learn**
+**2.Perform Linear Regression with Scikit Learn**
 
 
 ```python
@@ -97,7 +97,7 @@ print(' y = {0} * x + {1}'.format(model.coef_[0], model.intercept_))
     
 
 **3.Perform Linear Regression with Seaborn**
-
+Seaborn creates a regression line accompanied by a projection showing where data points should fall based on the regression with one simple function call.
 
 ```python
 plt.scatter(years, mean)
